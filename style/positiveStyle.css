@@ -6,19 +6,19 @@
 	top:250px;
 	left:260px;
 	width:745px;
-	background-color:#000;
+	background-color:#AAA;
 	height:40px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-ms-border-radius: 5px;
 	border-radius:5px;
-	background-image: -moz-linear-gradient(#000, #444); 
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#444));	
-	background-image: -webkit-linear-gradient(#000, #444);	
-	background-image: -o-linear-gradient(#000, #444);
-	background-image: -ms-linear-gradient(#000, #444);
-	background-image: linear-gradient(#000, #444);
-	box-shadow: 0px 0px 20px #FFF;
+	background-image: -moz-linear-gradient(#DDD, #AAA); 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#AAA));	
+	background-image: -webkit-linear-gradient(#DDD, #AAA);	
+	background-image: -o-linear-gradient(#DDD, #AAA);
+	background-image: -ms-linear-gradient(#DDD, #AAA);
+	background-image: linear-gradient(#DDD, #AAA);
+	box-shadow: 0px 0px 20px #AAA;
 }
 
 #menu ul{
@@ -35,39 +35,39 @@
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	color:#FFF;
+	color:#333;
 
 }
 
 #menu ul li:hover{
-	box-shadow: 0px 0px 100px #FFF;
-	background: rgba(225,225,225,.9);
-	border-color: rgba(255,255,255,.6);
+	box-shadow: 0px 0px 100px #AAA;
+	background: rgba(150,150,150,.9);
+	border-color: rgba(150,150,150,.6);
     border-style: solid;
     border-width: 2px;
-	color:#000;
+	color:#FFF;
 }
 
-a{
+#menu a{
 
  	text-decoration: none;
 	font-family:Georgia, "Times New Roman", Times, serif;
-	color:#FFF;
 }
 
 
 body{
-	background-color:#000;
+	background-color:#EEE;
+	background-image:url(../res/img/positive.jpg);
 }
 
 #body{
 	position:absolute;
 	top:320px;
 	left:260px;
-	box-shadow: 0px 0px 30px #FFF;
-    background: rgba(225,225,225,.2);
+	box-shadow: 0px 0px 30px #AAA;
+    background: rgba(255,255,255,.3);
     border-color:	#FFFFFF;
-    border-color: rgba(255,255,255,.6);
+    border-color: rgba(225,225,225,.6);
     border-style: solid;
     border-width: 2px;
     -moz-border-radius: 5px;
@@ -80,19 +80,19 @@ body{
 	width:720px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#666;
 	font-weight:normal;
 }
 
 #body p{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#666;
 	font-weight:normal;
 }
 #body h1{
 	font-family:Georgia, "Times New Roman", Times, serif;
-	color:#FFF;
+	color:#555;
 	font-weight:300;
 	font-size:24px;	
 }
@@ -102,29 +102,29 @@ body{
 #body a{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#666;
 	font-weight:normal;
 }
 
 #body li{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#666;
 	font-weight:normal;
 }
 
 #body a:hover{
-	color:#FFF;
+	color:#222;
 }
 
 #page{
 	position:absolute;
 	top:20px;
 	left:240px;
-	box-shadow: 0px 0px 50px #FFF;
-    background: rgba(225,225,225,.2);
+	box-shadow: 0px 0px 50px #AAA;
+    background: rgba(180,180,180,.2);
     border-color:	#FFFFFF;
-    border-color: rgba(255,255,255,.6);
+    border-color: rgba(180,180,180,.6);
     border-style: solid;
     border-width: 2px;
     -moz-border-radius: 5px;
@@ -139,20 +139,20 @@ body{
 }
 
 #webTitle{
-	color:#FFF;
+	color:#555;
 	position:absolute;
-	top:38px;
+	top:35px;
 	left:485px;
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:36px;
+	font-size:48px;
 	font-weight:100;
 	width:500px;
 }
 
 #caption{
-	color:#AAA;
+	color:#666;
 	position:absolute;
-	top:90px;
+	top:100px;
 	left:485px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:18px;
@@ -168,10 +168,10 @@ body{
 	width:200px;
 	height:190px;
 	background-color:#FFF;
-	box-shadow: 0px 0px 10px #FFF;
-    background: rgba(225,225,225,.2);
+	box-shadow: 0px 0px 10px #AAA;
+    background: rgba(255,255,255,.3);
     border-color:	#FFFFFF;
-    border-color: rgba(255,255,255,.6);
+    border-color: rgba(180,180,180,.6);
     border-style: solid;
     border-width: 2px;
     -moz-border-radius: 5px;
@@ -191,7 +191,7 @@ body{
 }
 
 #copyright{
-	color:#AAA;
+	color:#666;
 	position:absolute;
 	top:705px;
 	left:810px;
@@ -199,4 +199,12 @@ body{
 	font-size:12px;
 	font-weight:100;
 	width:300px;	
+}
+
+#theme a{
+	color:#333333;
+	position:absolute;
+	top:5px;
+	left:1000px;
+	text-decoration:none;
 }

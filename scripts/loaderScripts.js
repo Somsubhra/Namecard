@@ -1,4 +1,11 @@
-$(function() {    
+$(function() { 
+
+	$('#body').load('html/home.html');
+	
+	$("#home").click(function() {
+       $('#body').load('html/home.html');
+   	});
+	    
    	$("#socialize").click(function() {
        $('#body').load('html/socialize.html');
    	});
@@ -10,4 +17,5 @@ $(function() {
 	$("#contact").click(function(){
 	   	$('#body').load('html/contact.html');
 	});
+	
 });
