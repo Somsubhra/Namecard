@@ -82,14 +82,14 @@ body{
 	width:720px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#DDD;
 	font-weight:normal;
 }
 
 #body p{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#DDD;
 	font-weight:normal;
 }
 #body h1{
@@ -104,14 +104,15 @@ body{
 #body a{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#DDD;
 	font-weight:normal;
+	text-decoration:none;
 }
 
 #body li{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	color:#CCC;
+	color:#DDD;
 	font-weight:normal;
 }
 
@@ -203,10 +204,16 @@ body{
 	width:300px;	
 }
 
+#theme{
+	position:absolute;
+	top:705px;
+	left:300px;
+}
+
 #theme a{
 	color:#DDDDDD;
-	position:absolute;
-	top:5px;
-	left:1000px;
 	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	font-weight:100;
 }

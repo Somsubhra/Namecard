@@ -40,7 +40,7 @@
 }
 
 #menu ul li:hover{
-	box-shadow: 0px 0px 100px #AAA;
+	box-shadow: 0px 0px 100px #FFF;
 	background: rgba(150,150,150,.9);
 	border-color: rgba(150,150,150,.6);
     border-style: solid;
@@ -104,6 +104,7 @@ body{
 	font-size:14px;
 	color:#666;
 	font-weight:normal;
+	text-decoration:none;
 }
 
 #body li{
@@ -201,10 +202,16 @@ body{
 	width:300px;	
 }
 
+#theme{
+	position:absolute;
+	top:705px;
+	left:300px;
+}
+
 #theme a{
 	color:#333333;
-	position:absolute;
-	top:5px;
-	left:1000px;
 	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	font-weight:100;
 }
