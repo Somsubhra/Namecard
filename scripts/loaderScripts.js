@@ -1,9 +1,9 @@
 $(function() { 
 
-	$('#body').load('html/home.html');
+	$('#body').load('html/about.html');
 	
-	$("#home").click(function() {
-       $('#body').load('html/home.html');
+	$("#about").click(function() {
+       $('#body').load('html/about.html');
    	});
 	    
    	$("#socialize").click(function() {
