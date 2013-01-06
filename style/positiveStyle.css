@@ -141,7 +141,7 @@ body{
     padding: 5px 10px;
     margin-bottom: 2px;
 	width:760px;
-	height:695px;
+	height:750px;
 }
 
 #webTitle{
@@ -203,7 +203,7 @@ body{
 #copyright{
 	color:#666;
 	position:absolute;
-	top:705px;
+	top:760px;
 	left:810px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:12px;
@@ -213,7 +213,7 @@ body{
 
 #theme{
 	position:absolute;
-	top:705px;
+	top:760px;
 	left:260px;
 	width: 80px;
 	height:17px;
